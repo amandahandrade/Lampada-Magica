@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Sevillana&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+  font-family: "Sevillana", serif;
+}
+
+main {
+  background-image: linear-gradient(#00000066, #00000066), url("./assets/background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+
+  p {
+    font-size: 3rem;
+  }
+
+  img {
+    width: 30vw;
+  }
+
+  button {
+    width: 20%;
+    height: 10vh;
+    background-color: #111010;
+    border-radius: 5em;
+    font-size: 2.5rem;
+    box-shadow: 3px 6px 15px #00000081;
+    cursor: pointer;
+    transition: background-color 0.5s ease-in-out;
+
+    &:hover {
+        background-color: #004b9b;
+    }
+  }
+}
